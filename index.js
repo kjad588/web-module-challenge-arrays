@@ -45,8 +45,10 @@ Use the copy function below to do the following:
     2. Return a copy of the received array  
 */
 
-function copy(/*your code here*/){
+function copy(array){
     /*your code here*/
+    const flavorsCopy = [...originalFlavors];
+    return flavorsCopy;
 }    
 
 
@@ -64,8 +66,11 @@ For Example: is31Flavors(originalFlavors) will return true if your code is worki
 */
 
 
-function is31Flavors(/*your code here*/){
+function is31Flavors(array){
    /*your code here*/
+   if(array.length === 31) {
+       return true;
+   }
 }
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
